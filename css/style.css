@@ -1,13 +1,45 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #8ab7d1;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
+
 nav {
-  background-color: rgba(0,0,0,.5);
+  background: url(images/bloc-logo.png) no-repeat;
+  background-color: #8ab7d1;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+header {
+  background-color: #fff;
+  background-image: url(images/instagram-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 100%;
 }
 
 .logo {
