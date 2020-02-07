@@ -10,12 +10,10 @@ a {
 }
 
 a:link { color:#0070BB; } /* unvisited */
-a:visited { color:#0070BA; } /* visited */
 a:hover { color:#0070BC; } /* mouse over */
 a:active { color:#0070BD; } /* selected */
 
 nav {
-  background: url(images/bloc-logo.png) no-repeat;
   background-color: #8ab7d1;
   float: left;
   position: fixed;
@@ -24,22 +22,22 @@ nav {
 
 header {
   background-color: #fff;
-  background-image: url(images/instagram-pic.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 4em;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 p {
   font-size: 100%;
+  line-height: 1.5em;
 }
 
 .logo {
